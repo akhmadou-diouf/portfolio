@@ -809,3 +809,5 @@
     @media (max-width: 940px) { .logo__name { display: inline; } }
     @media (max-width: 520px) { .logo__name { display: none; } }
     .form .btn:disabled { opacity: .6; cursor: wait; transform: none; }
+    .project__links { flex-wrap: wrap; row-gap: 10px; }
+    .project__links .link { white-space: nowrap; }
